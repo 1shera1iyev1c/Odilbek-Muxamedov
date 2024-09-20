@@ -8,15 +8,17 @@ a {
 }
 
 
-ul, ol {
+ul,
+ol {
     list-style-type: none;
     padding: 0;
 }
 
-body{
+body {
     background-color: #1F1F1F;
     font-family: "Poppins";
 }
+
 header {
     padding: 30px;
     backdrop-filter: blur(10px);
@@ -50,19 +52,21 @@ header {
     gap: 60px;
 }
 
-.header__link{
+.header__link {
     color: white;
     text-shadow: 0px 0px 15px white;
     transition: 0.3s ease all;
 }
+
 .header__link:hover {
     text-shadow: 0px 0px 0px white;
 }
+
 nav {
     padding-top: 100px;
 }
 
-.intro{
+.intro {
     padding: 100px 0;
 }
 
@@ -96,6 +100,7 @@ nav {
     font-weight: 500;
     text-transform: uppercase;
     color: white;
+    margin-bottom: 30px;
 }
 
 .brends {
@@ -141,7 +146,7 @@ nav {
     max-width: 100px;
     text-align: center;
     margin: 40px auto;
-    border: 2px solid  #3C1DFF;
+    border: 2px solid #3C1DFF;
     transition: 0.3s ease all;
 }
 
@@ -190,7 +195,7 @@ nav {
     color: #1F1F1F;
 }
 
-footer  {
+footer {
     background: #111111;
     padding: 60px 30px;
 }
@@ -206,6 +211,7 @@ footer  {
     align-items: center;
     gap: 60px;
 }
+
 .footer__link {
     color: white;
     text-shadow: 0px 0px 15px white;
@@ -219,4 +225,19 @@ footer  {
 
 .footer__link:hover {
     text-shadow: 0px 0px 0px white;
+}
+
+.git__link {
+    background: linear-gradient(#15B9B9, #3C1DFF);
+    padding: 16px 46px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid #3C1DFF;
+    transition: 0.3s ease all;
+}
+
+.git__link:hover {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
 }
