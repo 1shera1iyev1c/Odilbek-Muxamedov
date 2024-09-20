@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+body{
+    background-color: #1F1F1F;
+    font-family: "Poppins";
+}
+header {
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Alex Brush", 'cursive';
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header__link{
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    transition: 0.3s ease all;
+}
+.header__link:hover {
+    text-shadow: 0px 0px 0px white;
+}
+nav {
+    padding-top: 100px;
+}
+
+.intro{
+    padding: 100px 0;
+}
+
+.intro__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro__img {
+    max-width: 560px;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+.intro__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+.intro__name {
+    font-size: 67px;
+    font-weight: 700;
+    color: white;
+}
+
+.intro__text {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.brends {
+    background-color: #111111;
+}
+
+.brends__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.about__title {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px grey;
+}
+
+.about__text {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px grey;
+}
+
+.about__link {
+    background: linear-gradient(#15B9B9, #3C1DFF);
+    padding: 16px 46px;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    max-width: 100px;
+    text-align: center;
+    margin: 40px auto;
+    border: 2px solid  #3C1DFF;
+    transition: 0.3s ease all;
+}
+
+.about__link:hover {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+.portfolio {
+    padding: 100px 0;
+}
+
+.port__title {
+    font-size: 60px;
+    color: white;
+    background-color: #1F1F1F;
+    margin-top: -50px;
+    display: inline-block;
+}
+
+.port__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.port__box {
+    background-color: white;
+    padding: 20px 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 40px;
+    transition: 0.3s ease all;
+}
+
+.port__box:hover {
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.port__name {
+    color: #1F1F1F;
+}
+
+footer  {
+    background: #111111;
+    padding: 60px 30px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.footer__link {
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    transition: 0.3s ease all;
+}
+
+.footer__text {
+    color: white;
+    text-shadow: 0px 0px 15px white;
+}
+
+.footer__link:hover {
+    text-shadow: 0px 0px 0px white;
+}
